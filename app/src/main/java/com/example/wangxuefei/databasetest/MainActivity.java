@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 // 开始组装第一条数据
                 values.put("name", "The Da Vinci Code");
                 values.put("author", "Dan Brown");
-                values.put("pages", 454);
+                values.put("pages", 545);
                 values.put("price", 16.96);
                 db.insert("Book", null, values); // 插入第一条数据
                 values.clear();
